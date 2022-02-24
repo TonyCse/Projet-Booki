@@ -1,0 +1,286 @@
+/* General */
+
+* {
+    max-width: 100%;
+}
+
+main {
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    flex-direction: column;
+    align-items: center;
+}
+header img {
+    justify-content: center;
+    border: #0065FC;
+}
+
+
+.header-small-res {
+    margin-left: 15px;
+}
+
+/* Navbar */
+
+.nav {
+    width: 100%;
+    height: 53px;
+    border-bottom: 4px #F2F2F2 solid;
+    text-align: center;
+}
+
+.nav1 {
+    width: 50%;
+}
+
+.nav2 {
+    width: 50%;
+}
+
+.nav-link.active {
+    color: #0065FC;
+    border-bottom: 4px #0065FC solid;
+    border-top: none;
+    align-items: flex-start;
+    text-align: center;
+    padding: 15px 20px 20px 20px;
+}
+
+/* Titres */
+
+.title1{
+    font-size: 23px;
+}
+
+.title2 {
+    display: inline-block;
+    max-height: 100px;
+    font-size: 13px;
+}
+
+/* Barre de recherche */
+
+.SearchButton {
+    width: 87%;
+    justify-content:flex-start;
+}
+
+.search {
+    display: none;
+}
+
+.icon-search {
+    display:inline-block;
+    border-style: none;
+    width: 40px;
+    border-radius: 10px;
+    background-color: #0065FC;
+    color: #F2F2F2;
+}
+
+.map {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px 0 0 15px;
+}
+
+.search-input {
+    width: 200px;
+    height: 40px;
+    border-right: none;
+}
+
+/* Menu */
+
+.filtres {
+    width: 100%;
+}
+
+.filter-row {
+    flex-flow: wrap;
+	padding-right: 30px;
+}
+
+/* Informations */
+
+.renseignement {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+p {
+    width: 85%;
+    display: flex;
+    align-self: center;
+}
+
+p i {
+    position: absolute;
+	width: auto;
+	height: auto;
+	left: 10px;
+}
+
+section, heb {
+    width: 100%;
+
+}
+
+/* Principal*/
+
+.section-title {
+    margin: 30px 20px 30px 20px;
+}
+
+.section-title h3 {
+    padding: 10px;
+}
+
+.heb-popu {
+    width: 100%;
+    flex-direction: column-reverse;
+    background-color: #F2F2F2;
+    margin: 0;
+}
+
+.section-container { 
+    width: 100%;
+    border-radius: 0;
+    background-color: white;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-heb {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+}
+
+h4 {
+    padding: 30px 10px;
+}
+
+/* Card */
+
+.card { 
+    width: 300px;
+    height: 170px;
+    margin-bottom: 20px;
+}
+
+.card-act {
+    width: 300px;
+    height: 50px;
+}
+
+.card-size {
+    flex-direction: column;
+    width: 300px;
+    height: 170px;
+}
+
+.card-heb {
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 15px;
+} 
+.card-heb img {
+    height: 100%;
+}
+
+.card-section {
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 100%;;
+}
+
+.card-content {
+    padding: 17px;
+    flex: 2;
+}
+
+.afficher {
+    left: 0;
+}
+
+/* Side*/
+
+.side {
+    background-color: #F2F2F2;
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.img-container2 {
+    flex: 2;
+}
+
+.img-container2 img {
+    width: 100%;
+}
+
+.section-card .card-populaire:not(last-child) {
+    max-width: 90%;
+    margin: 0px 0px 10px 20px;
+}
+
+/* Activité Section */
+
+.act-title h3 {
+    margin-bottom: 0px;
+    padding: 7%;
+}
+
+.afficher h4 {
+    padding: 3% 10%;
+    color: brown;
+}
+
+.afficher h4 a {
+    color:#0065FC;
+}
+
+.act-section {
+    flex-direction: column;
+    height: 1140px;
+    width: 100%;
+    justify-content:space-between;
+    margin-bottom: 40px;
+}
+
+.double-card {
+    align-items: center;
+    width: 100%;
+}
+
+.act-section {
+	flex-flow: column wrap;
+	height: 100%;
+	width: 100%;
+    align-items: center;
+}
+
+.act-section img {
+    width: 100%;
+    height: 75%;
+}
+
+/* Footer */
+
+footer {
+	flex-flow: column wrap;
+}
+
+.foot1, .foot2, .foot3 {
+    padding: 10px;
+}
+
